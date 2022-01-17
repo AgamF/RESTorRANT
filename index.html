@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <title>RESTorRant</title>
+</head>
+<body>
+    <div class="navbar">
+        <a onclick='window.scrollTo(0, 0)'>Home</a>
+        <a onclick='about()'>About</a>
+    </div> 
+    <div id="hero-section">
+        <h1>REST or Rant</h1>
+        <p>Rest at our place and rant about society.</p>
+        <div class="btn-container">
+            <button id="menu-btn">Menu</button>
+            <button id="order-btn">Order now</button>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="appetizers">
+            <h1>Appetizers</h1>
+            <div>
+                <div class="card">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Pasta-alla-vodka-f1d2e1c.jpg">
+                    <h3>Pasta</h3>
+                </div>
+                <div class="card">
+                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe-2-500x500.jpg">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="card">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/05/eggs-nicoise-373d991.jpg">
+                    <h3>Salad</h3>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkioZqNHLsOmPa8IQ89DGwhYZCyQuDMVXlw&usqp=CAU">
+                    <h3>Taco</h3>
+                </div>
+                <div class="card">
+                    <img src="https://previews.123rf.com/images/nitr/nitr1108/nitr110800014/10262596-coffee-and-croissant-on-a-white-background.jpg">
+                    <h3>Croissant & Coffee</h3>
+                </div>
+            </div>
+        </div>
+        <div id="buffer" style="height: 350px; background: black;">
+            <img width="400px" height="300px" src="https://static.vecteezy.com/system/resources/previews/001/936/523/original/cute-bakery-chef-girl-welcome-smiling-cartoon-art-illustration-vector.jpg">
+            <div>
+                <h2>Our reviews are skyrocketing!</h2>
+                <p>Thank you such much for your support! <br>
+                    Continue eating and ranting so that our <br>
+                    business could continue growing.
+                </p>
+            </div>
+        </div>
+        <div class="drinks">
+            <h1>Drinks</h1>
+            <div>
+                <div class="card">
+                    <img src="https://seeklogo.com/images/C/Coca-Cola-logo-108E6559A3-seeklogo.com.png">
+                    <h3>Coca-Cola</h3>
+                </div>
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/ON/NN/MY-29819733/packaged-water-bottle-500x500.jpg">
+                    <h3>Water</h3>
+                </div>
+                <div class="card">
+                    <img src="https://pbs.twimg.com/profile_images/864829905682542592/dUje518o_400x400.jpg">
+                    <h3>Lemonade</h3>
+                </div>
+                <div class="card">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c97ffc87453053.5db9dcd083ec4.jpg">
+                    <h3>Sprite</h3>
+                </div>
+                <div class="card">
+                    <img src="https://www.rainforest-alliance.org/wp-content/uploads/2021/07/fuze-tea-300x300.png">
+                    <h3>Fuze Tea</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="order">
+        <div>
+            <h1 style="text-align: center;">Order Now</h1>
+            <form id="form">
+                <label>Phone Number: <input placeholder="Your phone here"></label>
+                <label>Full Name: <input placeholder="Your name here"></label>
+                <label>You don't get to choose anything, sorry 😴</label>
+                <label>Card Number: <input placeholder="Credit card number here"></label>
+                <button onclick='submitOrder()' type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
