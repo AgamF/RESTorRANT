@@ -1,24 +1,5 @@
 const viewMenuButton = document.getElementById('menu-btn');
 const viewOrderButton = document.getElementById('order-btn');
-let itemCounter = 0;
-let item;
-
-const menuItems = [
-    appetizers = {
-        pasta: "Pasta",
-        pizza: "Pizza",
-        salad: "Salad",
-        taco: "Taco",
-        croissant: "Croissant and Coffee"
-    },
-    drinks = {
-        cola: "Coca-Cola",
-        water: "Water bottle",
-        lemonade: "Lemonade", 
-        sprite: "Sprite",
-        fuzetea: "Fuze Tea"
-    }
-];
 
 const viewMenu = () => {
     window.scrollTo(0, 1120);
